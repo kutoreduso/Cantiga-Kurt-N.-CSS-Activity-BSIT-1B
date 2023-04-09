@@ -120,3 +120,36 @@ div:nth-child(2) {
 a:hover{
     color:orangered;
 }
+/* Services Section */
+#services {
+    height:430px;
+    padding:10px 0;
+    background-color: #f1f1f1;
+    margin-top: 200px;
+}
+#services h2 {
+    margin-top:150px;
+    font-size:35px;
+    text-align: center;
+}
+#services ul {
+    font-size:15px;
+    margin-left:200px;
+    padding:18px;
+}
+#services li {
+    font-size:20px;
+    font-weight: bold;
+    display:inline-block;
+    width:180px;
+    margin:20px;
+    padding:30px;
+    text-align:center;
+    background-color: white;
+}
+#services li:nth-child(1) {
+    background-color: orangered;
+}
+#services li:hover {
+    box-shadow:0 0 5px 5px lightgrey;
+}
