@@ -1,0 +1,33 @@
+/* Landing Section */
+* {
+    margin:0;
+
+}
+#mywebsite {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#landing {
+    padding: 1px;
+    background-image:linear-gradient(rgba(0,15,7,0.5), rgba(227,226,226,0.5)), url(../img/landing-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height:920px;
+}
+#landing h1 {
+    margin-left: 558px;
+    margin-top: 380px;
+    font-size: 55px;
+    width:40%;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+#landing p {
+    margin-top: 15px;
+    font-size:23px;
+    width:25%;
+    color:white;
+    margin-left: 710px;
+    text-shadow: 1px 1px 1px black;
+}
